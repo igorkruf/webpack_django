@@ -1,0 +1,22 @@
+.popup__wrap {
+  display: none;
+  justify-items: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  border: 5px solid green;
+  background-color: rgba(#000000, 0.5);
+}
+.popup__wrap_visible {
+  display: grid;
+}
+.popup {
+  width: 90%;
+  max-width: 500px;
+  min-height: 50%;
+  max-height: 90%;
+  background-color: #fff;
+}

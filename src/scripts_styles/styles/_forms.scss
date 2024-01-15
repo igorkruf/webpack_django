@@ -1,0 +1,32 @@
+.form__label {
+  color: #feee0a;
+}
+.form {
+  display: grid;
+  grid-template-columns: 90%;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.375);
+}
+.form__wrapper {
+  padding: 24px 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+  background-color: #6b8d6a;
+  p {
+    padding: 0px 12px;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    justify-items: flex-start;
+    align-items: center;
+  }
+  button {
+    padding: 6px 12px;
+    margin: 12px 12px;
+  }
+  .input {
+    width: 100%;
+    padding: 6px 12px;
+  }
+}
